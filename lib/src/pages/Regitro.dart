@@ -41,7 +41,22 @@ class _Registro extends State<Registro> {
             ),
             child: const TextField(
               decoration: InputDecoration(
-                labelText: 'Nombre',
+                labelText: 'Nombre personal',
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+          Container(
+            height: 40,
+            width: 250,
+            margin: const EdgeInsets.only(
+              left: 30,
+              top: 50,
+              right: 30,
+            ),
+            child: const TextField(
+              decoration: InputDecoration(
+                labelText: 'Nombre de usuario',
               ),
               textAlign: TextAlign.center,
             ),
@@ -71,18 +86,91 @@ class _Registro extends State<Registro> {
             width: 250,
             margin: const EdgeInsets.only(
               left: 30,
+              top: 50,
+              right: 30,
+            ),
+            child: const TextField(
+              decoration: InputDecoration(
+                labelText: 'Edad',
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+          Container(
+            height: 40,
+            width: 250,
+            margin: const EdgeInsets.only(
+              left: 30,
+              top: 50,
+              right: 30,
+            ),
+            child: const TextField(
+              decoration: InputDecoration(
+                labelText: 'Telefono',
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+          Container(
+            height: 40,
+            width: 250,
+            margin: const EdgeInsets.only(
+              left: 30,
+              top: 50,
+              right: 30,
+            ),
+            child: const TextField(
+              decoration: InputDecoration(
+                labelText: 'Direccion',
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+          Container(
+            height: 40,
+            width: 250,
+            margin: const EdgeInsets.only(
+              left: 30,
               top: 70,
               right: 30,
             ),
             child: MaterialButton(
               //38d39f
-              color: Color.fromARGB(255, 211, 92, 56),
+              color: Color.fromARGB(255, 39, 219, 84),
               textColor: Colors.white,
               child: const Text("Aceptar"),
               onPressed: () {
                 //print("Hola mundo");
                 Navigator.pushNamed(context, 'Login');
               },
+            ),
+          ),
+          Container(
+            height: 40,
+            width: 250,
+            margin: const EdgeInsets.only(
+              left: 30,
+              top: 30,
+              right: 30,
+              bottom: 10,
+            ),
+            child: MaterialButton(
+              //38d39f
+              color: Color.fromARGB(255, 255, 252, 53),
+              textColor: Colors.white,
+              child: const Text("Cancelar"),
+              onPressed: () {
+                //print("Hola mundo");
+                Navigator.pushNamed(context, 'Login');
+              },
+            ),
+          ),
+          Container(
+            height: 40,
+            width: 250,
+            margin: const EdgeInsets.only(
+              left: 30,
+              top: 30,
             ),
           ),
         ],
