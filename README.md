@@ -1,16 +1,9 @@
 # veterinaria_patitas_felices
 
-A new Flutter project.
+#INTEGRANTES DEL EQUIPO
+193213 José Alberto Hernández Ramírez
+193233 Luis Donato Martínez Simuta
+193282 Oscar Antonio Pérez Ocómatl
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#LINK DE JIRA
+https://matenimiento-software.atlassian.net/jira/software/projects/VPF/boards/1
