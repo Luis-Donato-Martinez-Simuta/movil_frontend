@@ -6,4 +6,4 @@
 # 193282 Oscar Antonio Pérez Ocómatl
 
 # LINK DE JIRA
-https://matenimiento-software.atlassian.net/jira/software/projects/VPF/boards/1
+# https://matenimiento-software.atlassian.net/jira/software/projects/VPF/boards/1
